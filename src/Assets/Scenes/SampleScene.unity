@@ -2752,6 +2752,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22d55cbda7a73c04cb7691d1772e5f4f, type: 3}
+--- !u!1 &350025082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 527809070779132495, guid: 6006cfbfc9781814e9cb5df03ec2f504,
+    type: 3}
+  m_PrefabInstance: {fileID: 527809070579570994}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &350025083
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350025082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &352596190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6100,6 +6119,7 @@ GameObject:
   - component: {fileID: 732103305}
   - component: {fileID: 732103308}
   - component: {fileID: 732103307}
+  - component: {fileID: 732103306}
   m_Layer: 0
   m_Name: RoadSlice (4)
   m_TagString: Untagged
@@ -6121,6 +6141,19 @@ Transform:
   m_Father: {fileID: 249683633}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &732103306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732103304}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &732103307
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7739,6 +7772,7 @@ GameObject:
   - component: {fileID: 952307513}
   - component: {fileID: 952307516}
   - component: {fileID: 952307515}
+  - component: {fileID: 952307514}
   m_Layer: 0
   m_Name: RoadSlice (7)
   m_TagString: Untagged
@@ -7760,6 +7794,19 @@ Transform:
   m_Father: {fileID: 249683633}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &952307514
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952307512}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.00000011920929, y: 0, z: 0}
 --- !u!23 &952307515
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8000,6 +8047,7 @@ GameObject:
   - component: {fileID: 982614436}
   - component: {fileID: 982614439}
   - component: {fileID: 982614438}
+  - component: {fileID: 982614437}
   m_Layer: 0
   m_Name: RoadSlice (2)
   m_TagString: Untagged
@@ -8021,6 +8069,19 @@ Transform:
   m_Father: {fileID: 249683633}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &982614437
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982614435}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: -0.00000023841858}
 --- !u!23 &982614438
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8292,6 +8353,7 @@ GameObject:
   - component: {fileID: 1011158012}
   - component: {fileID: 1011158015}
   - component: {fileID: 1011158014}
+  - component: {fileID: 1011158013}
   m_Layer: 0
   m_Name: RoadSlice (6)
   m_TagString: Untagged
@@ -8313,6 +8375,19 @@ Transform:
   m_Father: {fileID: 249683633}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1011158013
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011158011}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: -0.00000011920929}
 --- !u!23 &1011158014
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10069,6 +10144,7 @@ GameObject:
   - component: {fileID: 1173236115}
   - component: {fileID: 1173236118}
   - component: {fileID: 1173236117}
+  - component: {fileID: 1173236116}
   m_Layer: 0
   m_Name: RoadSlice (10)
   m_TagString: Untagged
@@ -10090,6 +10166,19 @@ Transform:
   m_Father: {fileID: 249683633}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1173236116
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173236114}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1173236117
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10691,6 +10780,7 @@ GameObject:
   - component: {fileID: 1257407473}
   - component: {fileID: 1257407476}
   - component: {fileID: 1257407475}
+  - component: {fileID: 1257407474}
   m_Layer: 0
   m_Name: RoadSlice (11)
   m_TagString: Untagged
@@ -10712,6 +10802,19 @@ Transform:
   m_Father: {fileID: 249683633}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1257407474
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257407472}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.000000059604645, y: 0, z: 0}
 --- !u!23 &1257407475
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11542,6 +11645,7 @@ GameObject:
   - component: {fileID: 1313599589}
   - component: {fileID: 1313599592}
   - component: {fileID: 1313599591}
+  - component: {fileID: 1313599590}
   m_Layer: 0
   m_Name: RoadSlice (5)
   m_TagString: Untagged
@@ -11563,6 +11667,19 @@ Transform:
   m_Father: {fileID: 249683633}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1313599590
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313599588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.00000011920929, y: 0, z: 0}
 --- !u!23 &1313599591
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13255,6 +13372,7 @@ GameObject:
   - component: {fileID: 1477137788}
   - component: {fileID: 1477137791}
   - component: {fileID: 1477137790}
+  - component: {fileID: 1477137789}
   m_Layer: 0
   m_Name: RoadSlice (3)
   m_TagString: Untagged
@@ -13276,6 +13394,19 @@ Transform:
   m_Father: {fileID: 249683633}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1477137789
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477137787}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1477137790
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13896,6 +14027,7 @@ GameObject:
   - component: {fileID: 1541907065}
   - component: {fileID: 1541907068}
   - component: {fileID: 1541907067}
+  - component: {fileID: 1541907066}
   m_Layer: 0
   m_Name: RoadSlice (9)
   m_TagString: Untagged
@@ -13917,6 +14049,19 @@ Transform:
   m_Father: {fileID: 249683633}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1541907066
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541907064}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1541907067
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14789,6 +14934,7 @@ GameObject:
   - component: {fileID: 1662889642}
   - component: {fileID: 1662889645}
   - component: {fileID: 1662889644}
+  - component: {fileID: 1662889643}
   m_Layer: 0
   m_Name: RoadSlice (1)
   m_TagString: Untagged
@@ -14810,6 +14956,19 @@ Transform:
   m_Father: {fileID: 249683633}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1662889643
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662889641}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1662889644
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18256,6 +18415,7 @@ GameObject:
   - component: {fileID: 2042887350}
   - component: {fileID: 2042887353}
   - component: {fileID: 2042887352}
+  - component: {fileID: 2042887351}
   m_Layer: 0
   m_Name: RoadSlice (8)
   m_TagString: Untagged
@@ -18277,6 +18437,19 @@ Transform:
   m_Father: {fileID: 249683633}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2042887351
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042887349}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2042887352
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19797,21 +19970,6 @@ PrefabInstance:
     - target: {fileID: 943563965322480396, guid: 8d57345237b1ab242bb52208529af113,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3891355234904149352, guid: 8d57345237b1ab242bb52208529af113,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3969053746655044051, guid: 8d57345237b1ab242bb52208529af113,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7251688281815221144, guid: 8d57345237b1ab242bb52208529af113,
-        type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
