@@ -5,6 +5,10 @@ public class CameraController : MonoBehaviour
     public float moveSpeed = 30f;
     public float panBorderThickness = 5f;
 
+    public float scrollSpeed = 5f;
+    public float minScrollY = 10f;
+    public float maxScrollX = 80f;
+
     private bool doMovement = true;
 
     Vector3 forward, right;
@@ -24,13 +28,7 @@ public class CameraController : MonoBehaviour
             doMovement = !doMovement;
 
         if (!doMovement)
-            return;
-        /*
-        if (Input.anyKey)
-            Move();
-        */
-
-        
+            return;        
 
         if (Input.GetKey("w") || Input.mousePosition.y >= Screen.height - panBorderThickness)
             transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime, Space.World);
@@ -40,6 +38,12 @@ public class CameraController : MonoBehaviour
             transform.Translate(Vector3.right * moveSpeed * Time.deltaTime, Space.World);
         if (Input.GetKey("s") || Input.mousePosition.y <= panBorderThickness)
             transform.Translate(Vector3.back * moveSpeed * Time.deltaTime, Space.World);
+
+        Vector3 pos = transform.position;
+        pos.y -= Input.GetAxis("Mouse ScrollWheel") * 1000 * scrollSpeed * Time.deltaTime;
+        pos.y = Mathf.Clamp(pos.y, minScrollY, maxScrollX);
+        transform.position = pos;
+
     }
 
     void Move()
