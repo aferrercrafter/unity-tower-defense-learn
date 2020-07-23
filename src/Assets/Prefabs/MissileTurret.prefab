@@ -50,7 +50,7 @@ MonoBehaviour:
   fireRate: 1
   partToRotate: {fileID: 8682683003401577780}
   enemyTag: enemy
-  bulletPrefab: {fileID: 4900031228145778928, guid: 55293b49b3ff66145a0703785282711b,
+  bulletPrefab: {fileID: 2749597100750813804, guid: 4fb817e5fa666064ba29acae1d78aa69,
     type: 3}
   firePoint: {fileID: 1987159299311697863}
 --- !u!1 &855320734350004028
@@ -78,9 +78,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855320734350004028}
-  m_LocalRotation: {x: -0.000000119209275, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.44054657}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalRotation: {x: -0.50000006, y: 0.49999994, z: 0.50000006, w: 0.49999994}
+  m_LocalPosition: {x: 0, y: -0.44054675, z: 0}
+  m_LocalScale: {x: 99.999985, y: 100, z: 100.000015}
   m_Children: []
   m_Father: {fileID: 8682683003401577780}
   m_RootOrder: 0
@@ -236,7 +236,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5896538565885810288}
-  m_LocalRotation: {x: -0.70710677, y: 0.00018757905, z: 0.00018757905, w: 0.70710677}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 1.838, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -244,7 +244,7 @@ Transform:
   - {fileID: 1987159299311697863}
   m_Father: {fileID: 99335210215049873}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0.030000001}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &7304242183352965365
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,8 +268,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7304242183352965365}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.418, y: 0, z: 0.0006128115}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 0, y: 0.00061285496, z: 1.4180003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8682683003401577780}

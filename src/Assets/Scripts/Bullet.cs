@@ -6,6 +6,8 @@ public class Bullet : MonoBehaviour
     public float effectDuration = 2f;
 
     public GameObject impactEffect;
+    public float impactRadius = 0f;
+
     Transform target;    
 
 
@@ -33,6 +35,7 @@ public class Bullet : MonoBehaviour
         }
 
         transform.Translate(dir.normalized * distancePerFrame, Space.World);
+        transform.LookAt(target);
         
     }
 
@@ -40,8 +43,39 @@ public class Bullet : MonoBehaviour
     {
         GameObject effect = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
         Destroy(effect, effectDuration);
-        Destroy(gameObject);
+
+        if(impactRadius > 0f)
+        {
+            Explode();
+        }
+        else
+        {
+            Damage(target);
+        }
+
+        Destroy(transform.gameObject);
         
+    }
+
+    void Explode()
+    {
+        Collider[] affected = Physics.OverlapSphere(transform.position, impactRadius);
+        foreach(Collider obj in affected)
+        {
+            if (obj.tag == "enemy")
+                Damage(obj.transform);
+        }
+    }
+
+    void Damage(Transform enemy)
+    {
+        Destroy(enemy.gameObject);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, impactRadius);
     }
 
 
