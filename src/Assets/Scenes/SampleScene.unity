@@ -2300,6 +2300,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ac1511675fa2c241a65cf11e121da4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  standardTorret:
+    prefab: {fileID: 455961707208479158, guid: 8d57345237b1ab242bb52208529af113, type: 3}
+    cost: 0
+  missileTurret:
+    prefab: {fileID: 732741437195472939, guid: 99ad81423cb39044688a88f870bc1c7c, type: 3}
+    cost: 0
 --- !u!4 &270214441 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2344301079252102444, guid: 22d55cbda7a73c04cb7691d1772e5f4f,
@@ -3720,6 +3726,7 @@ GameObject:
   - component: {fileID: 454094650}
   - component: {fileID: 454094651}
   - component: {fileID: 454094652}
+  - component: {fileID: 454094653}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3775,6 +3782,19 @@ MonoBehaviour:
     type: 3}
   missileTurretPrefab: {fileID: 732741437195472939, guid: 99ad81423cb39044688a88f870bc1c7c,
     type: 3}
+--- !u!114 &454094653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454094649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857e812618ce81a49af45d87a3904cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMoney: 400
 --- !u!1001 &454414304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7767,7 +7787,7 @@ PrefabInstance:
     - target: {fileID: 618793928163939942, guid: 88a5d7c99e1625441b132b805eb8e6d0,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetMissileTurretBuild
+      value: SelectMissileTurretBuild
       objectReference: {fileID: 0}
     - target: {fileID: 618793928163939942, guid: 88a5d7c99e1625441b132b805eb8e6d0,
         type: 3}
@@ -19922,7 +19942,7 @@ PrefabInstance:
     - target: {fileID: 618793928163939942, guid: 88a5d7c99e1625441b132b805eb8e6d0,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetStandarTurretBuild
+      value: SelectStandarTurretBuild
       objectReference: {fileID: 0}
     - target: {fileID: 618793928163939942, guid: 88a5d7c99e1625441b132b805eb8e6d0,
         type: 3}

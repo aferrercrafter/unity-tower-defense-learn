@@ -76,7 +76,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 98
+  controlID: 104
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -98,10 +98,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 579, y: 342}
-  m_MaxSize: {x: 12004, y: 8042}
+  m_MinSize: {x: 579, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 47
+  controlID: 67
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -121,8 +121,8 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -147,8 +147,8 @@ MonoBehaviour:
     y: 0
     width: 293
     height: 564
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimationWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -173,15 +173,15 @@ MonoBehaviour:
     y: 564
     width: 1531
     height: 383
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 19}
   - {fileID: 13}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,10 +270,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 947
-  m_MinSize: {x: 303, y: 342}
-  m_MaxSize: {x: 8003, y: 8042}
+  m_MinSize: {x: 303, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 97
+  controlID: 103
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -381,7 +381,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -14930
+  m_LastSelectedObjectID: 13364
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -628,20 +628,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animation
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Animation
+  - Assets/Prefabs
   m_LastFoldersGridSize: 96
   m_LastProjectPath: D:\a\unity\tutorials\TD_Brackeys\src
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ca390000
-    m_LastClickedID: 14794
-    m_ExpandedIDs: 00000000083900000a3900000c39000010390000
+    m_SelectedIDs: 20390000
+    m_LastClickedID: 14624
+    m_ExpandedIDs: 000000001c3900001e390000203900003239000042390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -669,7 +669,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000083900000a3900000c390000
+    m_ExpandedIDs: 000000001c3900001e39000020390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -694,8 +694,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: e6edffff
-    m_LastClickedInstanceID: -4634
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000b239000082360000763800001a380000000000006ee50000f8380000
     m_RenameOverlay:
@@ -713,7 +713,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 7}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -794,21 +794,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: aec5ffff7eccffff86e5ffff6ae9ffffdceeffff6afbffff
+      m_ExpandedIDs: 6afbffffe43300008a340000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Light
-        m_OriginalName: Light
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 33348
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
