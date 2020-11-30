@@ -125,6 +125,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 15
   effectDuration: 2
-  impactEffect: {fileID: 7604108202695958917, guid: 2967a5eec801d214ca8b8549e0c72f15,
+  impactEffect: {fileID: 7253748883412178808, guid: d1aa06755638e14438384c0de5f3a8b3,
     type: 3}
   impactRadius: 7
